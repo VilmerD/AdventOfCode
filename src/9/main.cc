@@ -1,12 +1,25 @@
 #include <fstream>
 #include <iostream>
+#include <iomanip>
+
 #include <string>
 #include <vector>
-#include <thread>
 
 using namespace std;
 
 const string NUMBERS = "-0123456789";
+
+const int FIELDWIDTH = 8;
+void PrintLine(vector<long> &line, int off)
+{
+    for (auto i = 0; i < off; i++) cout << setw(FIELDWIDTH) << "";
+
+    for (auto it = line.begin(); it != line.end(); it++)
+    {
+        cout << setw(FIELDWIDTH) << *it << setw(FIELDWIDTH) << " ";
+    }
+    cout << endl;
+}
 
 vector<long> ParseLineOfNumbers(const string &line)
 {
@@ -88,11 +101,11 @@ private:
         vector<long> nums = ParseLineOfNumbers(line);
 
         // Process numbers
-        cout << "Line: ";
-        for (auto it = line.begin(); it < line.end(); it++) cout << (*it) << " ";
-        cout << endl;
+        PrintLine(nums, 0);
 
         next.push_back(ProcessNumbers(nums));
+
+        cout << string(80, '=') << endl << endl;
     }
 
     long ProcessNumbers(vector<long> &nums)
@@ -110,8 +123,7 @@ private:
         cout << "Processed Lines: " << endl;
         for (auto it = lines.begin(); it != lines.end(); it++)
         {
-            for (auto itt = (*it).begin(); itt != (*it).end(); itt++) cout << (*itt) << " ";
-            cout << endl;
+           PrintLine(*it, distance(lines.begin(), it));
         }
 
         // Compute next value based on line
@@ -124,8 +136,7 @@ private:
         cout << "Appended Lines: " << endl;
         for (auto it = lines.begin(); it != lines.end(); it++)
         {
-            for (auto itt = (*it).begin(); itt != (*it).end(); itt++) cout << (*itt) << " ";
-            cout << endl;
+           PrintLine(*it, distance(lines.begin(), it));
         }
 
         // Last below is the new value

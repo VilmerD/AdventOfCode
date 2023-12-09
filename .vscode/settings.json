@@ -58,5 +58,6 @@
         "map": "cpp",
         "__tree": "cpp",
         "set": "cpp"
-    }
+    },
+    "esbonio.sphinx.confDir": ""
 }
