@@ -22,10 +22,10 @@ int strToNum(string numStr)
     return num;
 }
 
-class GameParser
+class Parser
 {
 public:
-    GameParser(const string &_input)
+    Parser(const string &_input)
     {
         input = _input;
     }
@@ -80,8 +80,8 @@ private:
             maxvalues[i] = 0;
         }
 
-        ChopLine(line, header, pulls);
         ParseHeader(header, gameID);
+        ChopLine(line, header, pulls);
         for (const auto &p : pulls)
         {
             for (int i = 0; i < 3; i++) values[i] = -1;
@@ -95,6 +95,7 @@ private:
                 minvalues[i] = min(values[i], minvalues[i]);
             }
         }
+        
         // Check if the maximum number of balls for each color is less than
         // target and compute the power
         int power = 1;
@@ -192,7 +193,7 @@ int main(int argc, char *argv[])
         input = argv[1];
     }
 
-    GameParser gp = GameParser(input);
+    Parser gp = Parser(input);
     gp.Parse();
     gp.Print();
 

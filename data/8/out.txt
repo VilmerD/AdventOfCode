@@ -1,0 +1,7 @@
+Took 11567 steps to reach ZZZ
+VJA VGA DXA AAA BPA BFA 
+Steps to z: 19099 12643 16409 11567 14257 21251 
+Greatest common divisor among all numbers: 269
+Least common multiple among all numbers: 9858474970153
+First step where all seeds lands in a z: 9858474970153
+Took 0 steps to reach ZZZ
