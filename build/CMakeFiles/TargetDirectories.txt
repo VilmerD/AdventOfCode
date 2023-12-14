@@ -1,0 +1,15 @@
+/Users/vilmer/Documents/Projects/AdventOfCode2023/build/CMakeFiles/CCLib.dir
+/Users/vilmer/Documents/Projects/AdventOfCode2023/build/CMakeFiles/day1.dir
+/Users/vilmer/Documents/Projects/AdventOfCode2023/build/CMakeFiles/day2.dir
+/Users/vilmer/Documents/Projects/AdventOfCode2023/build/CMakeFiles/day3.dir
+/Users/vilmer/Documents/Projects/AdventOfCode2023/build/CMakeFiles/day4.dir
+/Users/vilmer/Documents/Projects/AdventOfCode2023/build/CMakeFiles/day5.dir
+/Users/vilmer/Documents/Projects/AdventOfCode2023/build/CMakeFiles/day6.dir
+/Users/vilmer/Documents/Projects/AdventOfCode2023/build/CMakeFiles/day7.dir
+/Users/vilmer/Documents/Projects/AdventOfCode2023/build/CMakeFiles/day8.dir
+/Users/vilmer/Documents/Projects/AdventOfCode2023/build/CMakeFiles/day9.dir
+/Users/vilmer/Documents/Projects/AdventOfCode2023/build/CMakeFiles/day10.dir
+/Users/vilmer/Documents/Projects/AdventOfCode2023/build/CMakeFiles/day11.dir
+/Users/vilmer/Documents/Projects/AdventOfCode2023/build/CMakeFiles/day12.dir
+/Users/vilmer/Documents/Projects/AdventOfCode2023/build/CMakeFiles/edit_cache.dir
+/Users/vilmer/Documents/Projects/AdventOfCode2023/build/CMakeFiles/rebuild_cache.dir

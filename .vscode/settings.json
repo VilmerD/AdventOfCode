@@ -57,7 +57,9 @@
         "algorithm": "cpp",
         "map": "cpp",
         "__tree": "cpp",
-        "set": "cpp"
+        "set": "cpp",
+        "thread": "cpp",
+        "list": "cpp"
     },
     "esbonio.sphinx.confDir": ""
 }
